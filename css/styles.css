@@ -52,12 +52,12 @@ section{
   color: #fff;
 }
 
-.card:hover{
+/*.card:hover{
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
-}
+}*/
 
 .card {
   -webkit-transition: 0.6s;
