@@ -68,4 +68,5 @@ In this project we will use Advance CSS and apply Javascript for user interactio
 <ul>
   <li>Card Flip - <a href="https://codepen.io/darkwing/pen/bCali">David Walsh, Codepen</a></li>
   <li>Flexbox - <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox</a></li>
+  <li>W3S - <a href="http://www.w3schools.com/cssref/css3_pr_backface-visibility.asp">Backface visibility</a></li>
 </ul>

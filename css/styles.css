@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+}
+
+header{
+  background-color: grey;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+}
+
+section{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.game_mech{
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.score{
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+.cards{
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+
+.card{
+  margin: 10px;
+  flex: 1;
+  -webkit-flex: 1;
+}
+
+.card, .front, .back{
+  height: 150px;
+  flex-basis: 20%;
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+}
+
+.card:hover{
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.front, .back{
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.back{
+  background-color: red;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  position: relative;
+}
+
+.front{
+  background-color: grey;
+  z-index: 2;
+  width: 100%;
+}
+
